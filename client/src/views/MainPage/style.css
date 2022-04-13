@@ -1,0 +1,47 @@
+
+
+#row {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#col {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#crdbdy {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+
