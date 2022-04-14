@@ -1,11 +1,11 @@
-import React from 'react';
-import ThoughtList from '../components/ThoughtList';
-import ThoughtForm from '../components/ThoughtForm';
-import FriendList from '../components/FriendList';
+import React from "react";
+import ThoughtList from "../components/ThoughtList";
+import ThoughtForm from "../components/ThoughtForm";
+import FriendList from "../components/FriendList";
 
-import Auth from '../utils/auth';
-import { useQuery } from '@apollo/client';
-import { QUERY_THOUGHTS, QUERY_ME_BASIC } from '../utils/queries';
+import Auth from "../utils/auth";
+import { useQuery } from "@apollo/client";
+import { QUERY_THOUGHTS, QUERY_ME_BASIC } from "../utils/queries";
 
 const Home = () => {
   const { loading, data } = useQuery(QUERY_THOUGHTS);
@@ -16,26 +16,37 @@ const Home = () => {
 
   return (
     <main>
-      <div className="content ">
-        <span class="image-fill ">
+      <div className="Intro">
+        <div className="containers justify-flex-start ">
+          <h1>Introduction</h1>
+        </div>
+        <div className="image-fill ">
           <img src="https://cdn2.myminifactory.com/assets/object-assets/5f0c5ee8d58d9/images/720X720-eevee2-2.jpg" />
-        </span>
+        </div>
       </div>
-      
-      <div className="flex-row justify-space-between">
+      <div>
+        <div>
+          <h1>News</h1>
+        </div>
+        <div>
+          
+        </div>
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+
+      <div className="">
         {loggedIn && (
           <div className="col-12 mb-3">
             <ThoughtForm />
           </div>
         )}
-        <div className={`col-12 mb-3 ${loggedIn && 'col-lg-8'}`}>
+        <div className={`col-12 mb-3 ${loggedIn && "col-lg-8"}`}>
           {loading ? (
             <div>Loading...</div>
           ) : (
-            <ThoughtList
-              thoughts={thoughts}
-              title="Some Feed for Thought(s)..."
-            />
+            <ThoughtList thoughts={thoughts} title="Some Publish ..." />
           )}
         </div>
         {loggedIn && userData ? (
