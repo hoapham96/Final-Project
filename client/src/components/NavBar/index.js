@@ -8,20 +8,21 @@ function NavBar() {
   
     return (
       
-          <Navbar sticky="top" bg="light" expand="lg" id="bar">
+          <Navbar styleName="justify-content-space-between" sticky="top" bg="light" expand="lg" id="bar">
   <Container>
-    <Navbar.Brand href="#home">Pokemon Cards</Navbar.Brand>
+    <Navbar.Brand href="#home"><h1>Pokemon Cards</h1></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="me-auto justify-content-start">
+      <Nav className="justify-content-end" id="navlinks">
         <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">Link</Nav.Link>
-        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        <Nav.Link href="#link">Dashboard</Nav.Link>
+        <Nav.Link href="#link">Collection</Nav.Link>
+        <NavDropdown title="Menu(user)" id="basic-nav-dropdown">
+          <NavDropdown.Item href="#action/3.1">Profile</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.2">Sign In</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Create Account</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.4">Sign Out</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>

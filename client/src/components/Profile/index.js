@@ -13,19 +13,20 @@ function Profile() {
                 <div class="media align-items-end profile-header">
                 
                     <div class="media-body mb-5 text-white">
-                        <h4 class="mt-0 mb-0">Username</h4>
-
+                        <h4 class="mt-0 mb-0">PROFILE VIEW</h4>
+                        <h2>Username</h2>
                     </div>
                 </div>
             </div>
 
             <div class="bg-light p-4 d-flex justify-content-end text-center">
+                
                 <ul class="list-inline mb-0">
                     <li class="list-inline-item">
-                        <h5 class="font-weight-bold mb-0 d-block">0</h5><small class="text-muted"> <i class="fa fa-picture-o mr-1"></i>Photos</small>
+                        <h5 class="font-weight-bold mb-0 d-block">0</h5><small class="text-muted"> <i class="fa fa-picture-o mr-1"></i>Favorites</small>
                     </li>
                     <li class="list-inline-item">
-                        <h5 class="font-weight-bold mb-0 d-block">0</h5><small class="text-muted"> <i class="fa fa-user-circle-o mr-1"></i>Followers</small>
+                        <h5 class="font-weight-bold mb-0 d-block">0</h5><small class="text-muted"> <i class="fa fa-user-circle-o mr-1"></i>Friends</small>
                     </li>
                 </ul>
             </div>

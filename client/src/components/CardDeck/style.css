@@ -3,20 +3,33 @@
     justify-content: center;
     align-items: center;
     margin: 15px;
-
+    padding: 15px;
 }
 
-#cardo {
+.row col {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-#card {
+
+.card {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    object-fit: contain;
+    width: auto;
+    margin: 0;
+    padding: 20px;
+    width: 18rem;
+}
+
+#crdbdy {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+    border-top: solid 2px rgb(168, 158, 158);
 
 
 }
@@ -34,6 +47,24 @@
 
 }
 
+#text {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-col p {
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    opacity: .8;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
 #title {
     flex-wrap: wrap;
 
@@ -41,9 +72,10 @@
     align-items: center;
     padding: 15px;
     border-bottom: 2px solid rgb(255, 255, 255);
-    margin: 45px;
+    margin-bottom: 25px;
     opacity: .8;
     text-shadow: 2px 2px rgb(255, 255, 255);
+    border-bottom: solid 2px rgb(168, 158, 158)
 
 }
 
@@ -59,6 +91,8 @@ h1 {
     font-size: 100px;
     
 }
+
+
 
 #col { transition: all .2s ease-in-out; }
 #col:hover { transform: scale(1.1); }
