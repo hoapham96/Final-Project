@@ -1,0 +1,89 @@
+h1 {
+    color: rgb(247, 227, 247);
+    text-shadow: blueviolet 2px solid;
+    opacity: 1;
+    font-family: 'Pokemon Solid', sans-serif;
+    letter-spacing: 5px;
+    text-shadow:
+       3px 3px 0 rgb(194, 192, 192),
+     -1px -1px 0 rgb(183, 181, 181),  
+      1px -1px 0 rgb(182, 179, 179),
+      -1px 1px 0 rgb(193, 192, 192),
+       1px 1px 0 rgb(184, 181, 181);
+       text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+                                                
+
+}
+
+h2  {color: rgb(255, 247, 213);
+text-shadow: blueviolet 2px solid;
+opacity: 1;
+font-family: 'Pokemon Solid', sans-serif;
+letter-spacing: 5px;
+font-size: .9rem;
+
+                                            
+}
+
+#info {
+    width: 25%;
+}
+
+.row {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#cardbox {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#homecard {
+    margin: 20px;
+    margin-right: 10px;
+    width: 195px;
+
+    height: 270px;
+    border-radius: 20px;
+    background-image: url("../img/backcard2.png");
+    background-size: contain;
+    transition: width 2s, height 2s, background-color 2s, transform 1s;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+    
+}
+
+#homecard:hover {
+    flex-wrap: wrap;
+    width: 195px;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url("../img/pikachu.png");
+    background-size: contain;
+    transform: rotateY(360deg);
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.infobox {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+@keyframes fadeInOpacity {
+0% {
+
+    opacity: .5;
+}
+100% {
+
+    opacity: 1;
+}
+}

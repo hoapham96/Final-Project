@@ -2,9 +2,10 @@ import React from "react";
 import ThoughtList from "../components/ThoughtList";
 import ThoughtForm from "../components/ThoughtForm";
 import FriendList from "../components/FriendList";
-
+import "./style.css";
 import Auth from "../utils/auth";
 import { useQuery } from "@apollo/client";
+
 import { QUERY_THOUGHTS, QUERY_ME_BASIC } from "../utils/queries";
 
 const Home = () => {
@@ -17,11 +18,23 @@ const Home = () => {
   return (
     <main>
       <div className="Intro">
-        <div className="containers justify-flex-start ">
+        <div className="container justify-flex-start ">
           <h1>Introduction</h1>
         </div>
-        <div className="image-fill ">
-          <img src="https://cdn2.myminifactory.com/assets/object-assets/5f0c5ee8d58d9/images/720X720-eevee2-2.jpg" />
+        <div class="container justify-flex-end">
+  <div className="row">
+  <div className="col" id="homecard">
+ 
+  </div>
+    <div className="col">
+    <h2>Favorite cards and add them to your deck</h2>
+    </div>
+  
+
+
+
+
+</div>
         </div>
       </div>
       <div>

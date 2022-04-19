@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import "./style.css";
 import Auth from '../../utils/auth';
 
 const Header = () => {
@@ -10,8 +10,8 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-secondary mb-4 py-2 flex-row align-center position-sticky">
-      <div className="container flex-row justify-space-between-lg justify-center align-center">
+    <header className="bg-secondary mb-4 py-2 flex-row align-center position-sticky" id="nav">
+      <div className="container flex-row justify-space-between-lg justify-center align-center" id="navtext">
         <Link to="/">
           <h1>Pokémon Card</h1>
         </Link>
