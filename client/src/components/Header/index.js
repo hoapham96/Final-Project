@@ -20,6 +20,8 @@ const Header = () => {
           {Auth.loggedIn() ? (
             <>
               <Link to="/">Home</Link>
+              <Link to="/news">News</Link>
+              <Link to="/social">Social</Link>
               <Link to="/profile">Profile</Link>
               <a href="/" onClick={logout}>
                 Logout
@@ -27,8 +29,9 @@ const Header = () => {
             </>
           ) : (
             <>
+              <Link to="/">Home</Link>
               <Link to="/news">News</Link>
-              <Link to="/shop">Shop</Link>
+              <a href="#Shop" >Shop</a>
               <Link to="/social">Social</Link>
               <Link to="/login">Login</Link>
               <Link to="/signup">Signup</Link>
