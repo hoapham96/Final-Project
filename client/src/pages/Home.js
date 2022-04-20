@@ -9,7 +9,7 @@ const Home = () => {
           <h1>Introduction</h1>
 
           <p class="bio-text">
-                The app is a form of Porkmon evironment that enables users to search and select desired cards, browse news and makes new friends.it allows individual expression of feelings,taughts and perspectives. 
+                The app is a form of Porkmon environment that enables users to search and select desired cards, browse news and makes new friends.it allows individual expression of feelings,taughts and perspectives. 
             </p>
         </div>
         <div className="image-fill ">
