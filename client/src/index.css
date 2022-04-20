@@ -1,9 +1,11 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
 :root {
   --primary: #497573;
-  --secondary: #99f7f2;
+  --secondary: #c0c2c2;
   --tertiary: #b2c2c1;
   --quatrinary: #cadbda;
-  --light: #e1f5f4;
+  --light: #d1d4d4;
   --dark: #6c7575;
   --error: rgb(228, 46, 1);
   --border-radius: 0.3rem;
@@ -16,6 +18,7 @@
 
 * {
   box-sizing: border-box;
+  
 }
 .Intro{
   display: grid;
@@ -33,7 +36,9 @@
 }
 header {
   position: sticky;
-  top: 0
+  font-family: 'Pokemon Solid';
+  top: 0;
+  z-index: 1000;
 }
 html,
 body {
@@ -43,6 +48,26 @@ body {
   height: 100%;
   width: 100%;
   
+}
+#footerid {
+  /* Created with https://www.css-gradient.com */
+background: #b793e0;
+background: -webkit-linear-gradient(top left, #a254fb, #AE7DE0);
+background: -moz-linear-gradient(top left, #b383eb, #AE7DE0);
+background: linear-gradient(to bottom right, #b68ae8, #AE7DE0);
+  letter-spacing: 4px;
+  color: #dcdcdc;
+text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+}
+#nav {
+  background: #8f859a;
+background: -webkit-linear-gradient(top left, #605ba4, #c1b4ce);
+background: -moz-linear-gradient(top left, #c2add9, #d2b7ea);
+background: linear-gradient(to bottom right, #7d6990, #88719d);
+  letter-spacing: 4px;
+  letter-spacing: 4px;
+  color: #dddcd8;
+text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
 }
 .content{
   height: 100vh;
@@ -79,6 +104,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  text-align: center;
 }
 
 h2 {
@@ -174,6 +200,7 @@ nav a:hover {
   border-radius: var(--border-radius);
   background-color: var(--light);
   color: var(--dark);
+  width: 100%;
 }
 
 .card-header {
@@ -1283,4 +1310,26 @@ nav a:hover {
   .align-center-xl {
     align-items: center;
   }
+}
+
+#imgid {
+  width:auto;
+  height:200px;
+  float: left;
+  top: 0;
+  padding-right: 10px
+}
+#newsdivid {
+  /* border: 3px solid #4CAF50; */
+  padding: 5px;
+}
+#newscardid::after{
+  content: "";
+  clear: both;
+  display: flex;
+  width: 100%;
+}
+#introid {
+  padding: 100px;
+  font-family: 'Pokemon Solid', sans-serif;
 }
