@@ -2,6 +2,8 @@
 
 ## Description
 
+As the world of pokemon grows so does its fans! Now with Pokefriends you can keep up with the latest news that pokemon has to offer, make friends and even talk Pokétrash! 
+
 ## Installation
 
 ## Links
@@ -22,6 +24,12 @@
     MongoDB
 
     Javascript
+
+    JSON Web Token
+
+    Apollo
+
+    Bootstrap
 
     API: https://pokemontcg.io/
 
