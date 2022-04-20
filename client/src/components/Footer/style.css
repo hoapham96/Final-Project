@@ -1,0 +1,24 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+* {
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+#footerid {
+    /* Created with https://www.css-gradient.com */
+background: #b793e0;
+background: -webkit-linear-gradient(top left, #a254fb, #AE7DE0);
+background: -moz-linear-gradient(top left, #b383eb, #AE7DE0);
+background: linear-gradient(to bottom right, #b68ae8, #AE7DE0);
+    letter-spacing: 4px;
+    color: #dcdcdc;
+	text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+}
+.container {
+    font-family: 'Pokemon Solid', sans-serif;
+
+    letter-spacing: 5px;
+    color: #dedede;
+	text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+
+}

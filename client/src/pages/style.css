@@ -1,0 +1,20 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+* {
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+#nav {
+    background-color: rgb(106, 65, 130);
+    letter-spacing: 4px;
+    color: #d7ceb2;
+	text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+}
+.intro {
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #d7ceb2;
+	text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+
+}
