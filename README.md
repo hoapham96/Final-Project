@@ -2,14 +2,12 @@
 
 ## Description
 
-As the world of pokemon grows so does its fans! Now with Pokefriends you can keep up with the latest news that pokemon has to offer, make friends and even talk Pokétrash! 
-
-## Installation
+As the world of pokemon grows so does its fans! Now with Pokefriends you can keep up with the latest news that pokemon has to offer, make friends and even talk Pokétrash!                         
 
 ## Links
 
 ## Screen Shot/Video
-
+!(https://utavirtbofsfp-xid4240.slack.com/files/U02L47KRNF2/F03BP64PAB0/theme.png)
 
 ## Tech Used
 
