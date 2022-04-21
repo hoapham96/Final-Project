@@ -53,9 +53,6 @@ const News = () => {
     <>
       <main>
         <div>
-          <div>
-            <h1>News</h1>
-          </div>
           {newsInfo.map(({ link, imagePath, title, content, date }, i) => {
             return (
               <div key={i}>
@@ -75,7 +72,7 @@ const News = () => {
                       />
                     </div>
 
-                    <div className="col-md-8" id="">
+                    <div className="col-md-8" id="newsid">
                       <div className="card-body" id="newsdivid">
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{content}</p>
