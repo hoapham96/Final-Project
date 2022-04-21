@@ -113,7 +113,7 @@ p {
 }
 
 a {
-  color: var(--dark);
+  color: black;
   text-decoration: none;
 }
 
