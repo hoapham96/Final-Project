@@ -337,13 +337,8 @@ function CardDeck() {
       </Card.Body>
     </Card>
         </Col>
-
         </Row>
-
       </div>
-      
-     
-
 
     );
   }
