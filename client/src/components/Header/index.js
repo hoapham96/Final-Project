@@ -22,6 +22,7 @@ const Header = () => {
               <Link to="/">Home</Link>
               <Link to="/news">News</Link>
               <Link to="/social">Social</Link>
+              <Link to="/chat">Chat Room</Link>
               <Link to="/profile">Profile</Link>
               <a href="/" onClick={logout}>
                 Logout

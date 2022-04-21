@@ -12,7 +12,7 @@ const ThoughtList = ({ thoughts, title }) => {
       {thoughts &&
         thoughts.map(thought => (
           <div key={thought._id} className="card mb-3">
-            <p className="card-header" id="thoughtformid">
+            <p className="card-header" id="thoughtformid" >
               <Link
                 to={`/profile/${thought.username}`}
                 style={{ fontWeight: 700 }}
@@ -20,7 +20,7 @@ const ThoughtList = ({ thoughts, title }) => {
               >
                 {thought.username}
               </Link>{' '}
-              status on {thought.createdAt}
+              status on {thought.createdAt} 
             </p>
             <div className="card-body" id="thoughtformid">
               <Link to={`/thought/${thought._id}`}>
