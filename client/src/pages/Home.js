@@ -8,7 +8,7 @@ const Home = () => {
         <div className="containers justify-flex-start ">
           <h1>Introduction</h1>
 
-          <p class="bio-text">
+          <p className="bio-text">
                 The app is a form of Porkmon evironment that enables users to search and select desired cards, browse news and makes new friends.it allows individual expression of feelings,taughts and perspectives. 
             </p>
         </div>

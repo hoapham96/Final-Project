@@ -20,6 +20,7 @@ import Profile from './pages/Profile';
 import Signup from './pages/Signup';
 import Social from './pages/Social';
 import News from './pages/News'
+import Chat from './pages/Chat';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -52,6 +53,7 @@ function App() {
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/social" component={Social} />
+              <Route exact path="/chat" component={Chat} />
               <Route exact path="/news" component={News} />
               <Route exact path="/profile/:username?" component={Profile} />
               <Route exact path="/thought/:id" component={SingleThought} />
