@@ -7,7 +7,8 @@ As the world of pokemon grows so does its fans! Now with Pokefriends you can kee
 ## Links
 
 ## Screen Shot/Video
-!(./image/theme.png)
+
+!(image/theme.png)
 
 ## Tech Used
 
