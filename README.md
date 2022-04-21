@@ -2,11 +2,19 @@
 
 ## Description
 
-As the world of pokemon grows so does its fans! Now with Pokefriends you can keep up with the latest news that pokemon has to offer, make friends and even talk Pokétrash!                         
+As trading card games are becoming more and more popular, keeping track of your cards is too! This an app that will allow you to not only to see your cards strengths but will allow you to communicate with other Pokéfriends. With Pokefriends you can keep up with the latest news that Pokémon has to offer, make friends, and even talk some Pokétrash!                         
 
 ## Links
 
+API: https://pokemontcg.io/
+
+Repo: https://github.com/hoapham96/PokeFriends-Project
+
+Deployed App: 
+
+
 ## Screen Shot/Video
+
 ![theme](https://user-images.githubusercontent.com/91357329/164351925-dfe73904-f69c-4d1e-a57e-b03396dabbc4.png)
 
 
