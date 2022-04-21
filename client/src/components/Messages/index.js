@@ -45,8 +45,8 @@ function Messages({ socket, userData }) {
               title={`Sent at ${new Date(message.time).toLocaleTimeString()}`}
             >
               <span className="message-right"> 
-                <span>{message.value}</span>
-                <span className="date">{new Date(message.time).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</span>
+                <div>{message.value}</div>
+                <div className="date">{new Date(message.time).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</div>
               </span>
               <span className="user">{message.user.username.charAt(0).toUpperCase()}</span>
             </div>) : (<div
@@ -56,8 +56,8 @@ function Messages({ socket, userData }) {
             >
               <span className="user">{message.user.username.charAt(0).toUpperCase()}</span>
               <span className="message-left"> 
-                <span>{message.value}</span>
-                <span className="date">{new Date(message.time).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</span>
+                <div>{message.value}</div>
+                <div className="date">{new Date(message.time).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</div>
               </span>
             </div>)
           ))
