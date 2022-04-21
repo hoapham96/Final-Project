@@ -10,7 +10,7 @@ API: https://pokemontcg.io/
 
 Repo: https://github.com/hoapham96/PokeFriends-Project
 
-Deployed App: 
+Deployed App: https://pokefriends-v1.herokuapp.com/
 
 
 ## Screen Shot/Video
